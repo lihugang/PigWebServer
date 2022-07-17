@@ -1,0 +1,21 @@
+{
+    "ip": "0.0.0.0",
+    "port": 80,
+    "filepath": "server",
+    "cgi-type": "cgi/one-thread",
+    "cgi-routers": [],
+    "static-routers": [
+        {
+            "method": "ALL",
+            "path": "/"
+        }
+    ],
+    "default-404-page": "/404.html",
+    "headers": {
+        "x-team": "blocksteam"
+    },
+    "connection": {
+        "maxConnections": 1024,
+        "maxThreads": 2
+    }
+}
